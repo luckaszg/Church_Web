@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mukta&family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+
+footer {
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+}
+ul li a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.inline-list li {
+  display: inline;
+  margin-right: 40px;
+}
+.inline-list .submenu-items li {
+  display: inline;
+}
+.logo-container {
+  position: relative;
+  float: right;
+  right: 300px;
+}
+
+@media screen and (max-width: 1660px) {
+  .inline-list {
+    display: none;
+  }
+  .logo-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .footer-responsive {
+    height: 15vh;
+  }
+}

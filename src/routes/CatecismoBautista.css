@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mukta&family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+
+.title-catecismo-bautista {
+  font-size: 60px;
+  font-variant: small-caps;
+  text-align: center;
+  color: #643120;
+  margin-top: 100px;
+  height: 90px;
+  width: 1300px;
+  border-bottom: 2px solid #643120;
+  letter-spacing: 0px;
+}
+.items {
+  padding-top: 70px;
+  padding-block-end: 70px;
+  font-variant: small-caps;
+}
+@media screen and (max-width: 1300px) {
+  .title-catecismo-bautista {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .title-catecismo-bautista {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .title-catecismo-bautista {
+    width: 400px;
+    font-size: 40px;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title-catecismo-bautista {
+    width: 200px;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+
+.main-container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(133, 114, 42, 0.459)),
+    url("../../public/images/matrimonio_art.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+
+  padding-top: 70px; /* adjust this value to match the height of your header */
+}

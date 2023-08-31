@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito&family=Roboto+Slab&family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mukta&family=Nunito&family=Roboto&family=Roboto+Slab&family=Tinos&display=swap");
+
+header {
+  z-index: 1;
+  height: 90px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.scroll-header {
+  /* #56667A */
+  background-color: #85722a;
+}
+
+.logo {
+  cursor: pointer;
+  width: 70px;
+  height: auto;
+  margin-left: 25rem;
+  padding-top: 5px;
+}
+
+.logo img {
+  max-height: 200px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul li {
+  position: relative;
+}
+
+ul li a {
+  font-family: "Mukta", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+li:hover {
+  box-shadow: 0 -1px 0px white inset;
+}
+
+ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  min-width: 120px;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.submenu-items {
+  background-color: #000000fd;
+  width: 217px;
+}
+.menu-item {
+  display: block;
+}
+.menu-item:hover {
+  background: #e7dede2a;
+}
+.iconbutton-responsive {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1660px) {
+  .logo {
+    margin-left: 12rem;
+    width: 70px;
+  }
+  ul li {
+    left: 200px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .logo {
+    margin-left: 1rem;
+    width: 70px;
+  }
+  nav {
+    padding: 5px;
+    justify-content: space-between;
+  }
+  nav {
+    display: none;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #85722a;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    display: none;
+  }
+
+  nav li {
+    margin: 5px 0;
+  }
+  .iconbutton-responsive {
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 1095px) {
+  .CustomNav {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .logo {
+    margin-left: 1rem;
+    width: 70px;
+  }
+  ul li {
+    left: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .logo {
+    margin-left: 1rem;
+    width: 50px;
+  }
+  ul li {
+    left: 200px;
+  }
+}

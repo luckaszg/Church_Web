@@ -1,0 +1,31 @@
+.title-himnario {
+  font-size: 60px;
+  font-variant: small-caps;
+  text-align: center;
+  color: #643120;
+  margin-top: 100px;
+
+  width: 80%;
+  border-bottom: 2px solid #643120;
+  letter-spacing: 0px;
+  justify-content: center;
+}
+.audio-player {
+  margin-top: 20px;
+}
+.audio-reproductor {
+  width: 800px;
+  height: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .title-himnario {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title-himnario {
+    font-size: 25px;
+  }
+}
