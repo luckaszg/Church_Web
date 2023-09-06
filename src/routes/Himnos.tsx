@@ -40,11 +40,7 @@ const Himnos = () => {
         <div className="title-himnario">
           <span>Nuestro Himnario</span>
         </div>
-        <Grid
-          container
-          sx={{ justifyContent: "center" }}
-          className="grid-himnos"
-        >
+        <Grid container sx={{ justifyContent: "center" }}>
           <Grid
             sx={{
               display: {
@@ -70,6 +66,7 @@ const Himnos = () => {
                 lg: "block",
                 xl: "block",
               },
+              paddingBottom: "55px",
             }}
           >
             {MAPhimnos[page].audios.map((numero, index) => {
@@ -86,6 +83,7 @@ const Himnos = () => {
                 lg: "none",
                 xl: "none",
               },
+              paddingBottom: "55px",
             }}
           >
             {MAPhimnos[page].audios.map((numero, index) => {
@@ -93,8 +91,8 @@ const Himnos = () => {
             })}
           </Grid>
         </Grid>
-        <Grid
-          container
+        {/* <Grid
+          item
           sx={{
             paddingTop: "2rem",
             paddingBottom: "2rem",
@@ -102,8 +100,8 @@ const Himnos = () => {
             justifyContent: "center",
           }}
         >
-          <Pagination count={30} onChange={handleChange} />
-        </Grid>
+          <Pagination count={30} onChange={handleChange} size="small" />
+        </Grid> */}
       </Box>
       <Footer />
     </React.Fragment>

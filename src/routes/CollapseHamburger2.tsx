@@ -63,8 +63,8 @@ const PrincipalCollapse = () => {
                 Lecturas Recomendadas
               </a>
               <br />
-              <br />
-              <a
+              {/* <br /> */}
+              {/* <a
                 href="/libro-podcasts"
                 style={{ textDecoration: "none", color: "white" }}
               >
@@ -77,7 +77,7 @@ const PrincipalCollapse = () => {
                 style={{ textDecoration: "none", color: "white" }}
               >
                 Estudio de la Confesion
-              </a>
+              </a> */}
             </ListItemText>
           </ListItemButton>
         </List>

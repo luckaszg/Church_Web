@@ -8,17 +8,17 @@ import ExpandMore from "@mui/icons-material/ExpandMore";
 
 import Collapse from "@mui/material/Collapse";
 
-const PrincipalCollapse = ({ title, content }: any) => {
+const ResponsiveCollapse = ({ title, content }: any) => {
   const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
     setOpen(!open);
-    console.log(handleClick);
   };
   return (
     <List
       sx={{
-        width: "40rem",
+        width: "100%",
+        maxWidth: "40rem",
         bgcolor: "background.paper",
       }}
     >
@@ -37,4 +37,4 @@ const PrincipalCollapse = ({ title, content }: any) => {
   );
 };
 
-export default PrincipalCollapse;
+export default ResponsiveCollapse;

@@ -62,14 +62,14 @@ const PageHeader = () => {
                 Lecturas Recomendadas
                 <br />
               </Link>
-              <Link to={"/libro-podcasts"} className="menu-item">
+              {/* <Link to={"/libro-podcasts"} className="menu-item">
                 Podcats
                 <br />
               </Link>
               <Link to={"/estudio-confesion-audio"} className="menu-item">
                 Estudio de la Confesion
                 <br />
-              </Link>
+              </Link> */}
             </ul>
           </li>
           <li>

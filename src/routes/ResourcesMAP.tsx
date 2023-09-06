@@ -7,26 +7,26 @@ export const MAPResources = [
   },
   {
     key: 2,
-    imgen: "/images/pulpito.jpg",
+    imgen: "/images/pulpitoprotestante.jpg",
     title: "Predicas",
     href: "/predicas-tematicas",
   },
   {
     key: 3,
-    imgen: "/images/lecturas.jpg",
+    imgen: "/images/bibliotecaprotestante.jpg",
     title: "Libros",
     href: "/lecturas-recomendadas",
   },
-  {
-    key: 4,
-    imgen: "/images/podcasts.jpg",
-    title: "Podcasts",
-    href: "/libro-podcasts",
-  },
-  {
-    key: 5,
-    imgen: "/images/confesion.jpg",
-    title: "Estudios",
-    href: "/estudio-confesion-audio",
-  },
+  // {
+  //   key: 4,
+  //   imgen: "/images/podcastsChurch.jpg",
+  //   title: "Podcasts",
+  //   href: "/libro-podcasts",
+  // },
+  // {
+  //   key: 5,
+  //   imgen: "/images/confesion.jpg",
+  //   title: "Estudios",
+  //   href: "/estudio-confesion-audio",
+  // },
 ];

@@ -31,87 +31,82 @@ export function AlertDialog({ open, setOpen, url }: any) {
   };
 
   return (
-    <div>
-      <Dialog
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="alert-dialog-title"
-        aria-describedby="alert-dialog-description"
-        fullWidth
-        maxWidth="md"
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          padding: "0",
-          overflowY: "none",
-        }}
-      >
-        <DialogContent sx={{ padding: "0" }}>
+    <Dialog
+      open={open}
+      onClose={handleClose}
+      maxWidth="md"
+      fullWidth
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <DialogContent sx={{ padding: 0 }}>
+        <div
+          style={{
+            height: "60vh",
+            backgroundColor: "black",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            padding: "20px",
+          }}
+        >
+          <ReactPlayer
+            url={url}
+            controls
+            height="85%"
+            width="100%"
+            style={{ maxWidth: "975px" }}
+            progressInterval={0}
+          />
+
           <div
             style={{
-              height: "85%",
-              padding: "0",
-              width: "100%",
-              backgroundColor: "black",
-              justifyContent: "center",
+              display: "flex",
+              alignItems: "center",
+              marginTop: "10px",
+              color: "white",
             }}
           >
-            <ReactPlayer
-              url={url}
-              controls
-              height="85%"
-              width="100%"
-              progressInterval={0}
-            />
-            <div
+            <img
+              src="/images/IBCBV.jpg"
+              alt="IBCBV"
               style={{
-                width: "800px",
-                height: "65px",
-                marginTop: "10px",
-                marginLeft: "27px",
-                justifyContent: "left",
-                gap: "1.5rem",
-                display: "flex",
-                wordSpacing: "1px",
-                color: "white",
+                width: "60px",
+                height: "60px",
+                borderRadius: "100%",
               }}
-            >
-              <img
-                src="/images/IBCBV.jpg"
-                alt="IBCBV"
-                style={{ width: "60px", height: "60px", borderRadius: "110%" }}
-              />
-              <h1
-                style={{
-                  fontSize: "20px",
-                  marginTop: "4px",
-                }}
-              >
+            />
+
+            <div style={{ marginLeft: "10px" }}>
+              <h1 style={{ fontSize: "20px", margin: 0 }}>
                 IBCBV | Iglesia Bautista Columna y Baluarte de le Verdad
                 <br />
-                <span style={{ fontSize: "15px" }}>162 suscriptores</span>
               </h1>
-              <Button
-                variant="contained"
-                color="error"
-                sx={{
-                  height: "30px",
-                  width: "160px",
-                  marginTop: "18px",
-                  justifyContent: "space-between",
-                  bgcolor: "red",
-                  alignItems: "center",
-                }}
-                href="https://youtube.com/@iglesiabautistacolumnaybal6970?sub_confirmation=1&feature=subscribe-embed-click"
-              >
-                <SubscriptionsIcon sx={{ color: "white" }} />
-                <span style={{ color: "white" }}>Suscribirse</span>
-              </Button>
+              <span style={{ fontSize: "15px" }}>164 suscriptores</span>
             </div>
           </div>
-        </DialogContent>
-      </Dialog>
-    </div>
+
+          <Button
+            variant="contained"
+            color="error"
+            sx={{
+              height: "30px",
+              width: "160px",
+              marginLeft: "auto",
+              bgcolor: "red",
+              alignItems: "center",
+            }}
+            href="https://youtube.com/@iglesiabautistacolumnaybal6970?sub_confirmation=1&feature=subscribe-embed-click"
+          >
+            <SubscriptionsIcon sx={{ color: "white" }} />
+            <span style={{ color: "white" }}>Suscribirse</span>
+          </Button>
+        </div>
+      </DialogContent>
+    </Dialog>
   );
 }
 
