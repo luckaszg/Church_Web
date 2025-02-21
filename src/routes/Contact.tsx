@@ -61,9 +61,7 @@ const Contact = () => {
                   <span>
                     Ubicacion: Nemby-Paraguay
                     <br />
-                    Barrio: Mbokajaty
-                    <br />
-                    Calle: E.E.U.U a/5 cuadras de Acceso Sur
+                    Barrio: Cañadita
                   </span>
                 </div>
                 <div style={{ paddingTop: "30px", width: "auto" }}>
@@ -86,7 +84,7 @@ const Contact = () => {
               <br />
               <iframe
                 className="ubicacion1"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1071.6580866565566!2d-57.556105904160354!3d-25.38425767811161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945dab4c744d200d%3A0xc941ee79ce7df0de!2sIglesia%20Bautista%20Columna%20y%20Baluarte%20de%20la%20Verdad!5e0!3m2!1ses-419!2spy!4v1691089450200!5m2!1ses-419!2spy"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.953709526738!2d-57.53106042819951!3d-25.432235535632955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945dad001781167d%3A0xaaf42aa8ec5e9875!2sIglesia%20Bautista%20Reformada%20Columna%20y%20Baluarte%20de%20la%20Verdad!5e0!3m2!1sen!2sus!4v1740171536700!5m2!1sen!2sus"
                 width="670"
                 height="330"
                 style={{ border: "0" }}

@@ -71,9 +71,9 @@ function Footer() {
           }}
         >
           <ul className="inline-list">
-            <li>
+            {/* <li>
               <a href="/nosotros">Sobre nosotros</a>
-            </li>
+            </li> */}
             <li>
               <a href="/confesion">
                 Confesión Bautista de Fe de Londres de 1689

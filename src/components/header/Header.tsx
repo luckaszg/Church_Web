@@ -49,9 +49,9 @@ const Header = ({ scrollValue }: any) => {
 
       <CustomNav>
         <ul className="CustomNav">
-          <li>
+          {/* <li>
             <Link to={`/nosotros`}>Sobre nosotros</Link>
-          </li>
+          </li> */}
           <li>
             <a href="/que-creemos">En qué creemos</a>
             <ul className="submenu-items">

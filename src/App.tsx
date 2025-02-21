@@ -34,7 +34,7 @@ const App = () => {
       <div className="section1">
         <span className="current-serie">Serie actual de sermones</span>
         <span className="serie-title">
-          Matrimonio. <br /> Un Panorama Biblico.
+          Llamado al ministerio
         </span>
         <Grid
           container
@@ -388,8 +388,7 @@ const App = () => {
         <Box display={"flex"} justifyContent={"center"}>
           <iframe
             className="ubicacion"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2143.3373278534814!2d-57.55798627667456!3d-25.38306584653168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945dab4c744d200d%3A0xc941ee79ce7df0de!2sIglesia%20Bautista%20Columna%20y%20Baluarte%20de%20la%20Verdad!5e0!3m2!1ses-419!2spy!4v1689973606019!5m2!1ses-419!2spy"
-            style={{ border: 0 }}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d792.953709526738!2d-57.53106042819951!3d-25.432235535632955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945dad001781167d%3A0xaaf42aa8ec5e9875!2sIglesia%20Bautista%20Reformada%20Columna%20y%20Baluarte%20de%20la%20Verdad!5e0!3m2!1sen!2sus!4v1740171536700!5m2!1sen!2sus"
             loading="lazy"
           ></iframe>
         </Box>
